@@ -3,14 +3,36 @@
     margin: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+
+}
+ul, ol , li{
+    list-style: none;   
+}
 body{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    padding-inline: 64px ;
 }
 header{
     background-color: aqua;
     height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: 64px;
+    width: 64px;
+    background-color: lightcoral;
+
+}
+.menu ul{
+    background-color: lightgray;
+    display: flex;
+    
 }
 main{
 background-color: cadetblue;
