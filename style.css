@@ -5,6 +5,7 @@
 }
 a{
     text-decoration: none;
+    color: inherit;
 
 }
 ul, ol , li{
@@ -17,7 +18,6 @@ body{
     padding-inline: 64px ;
 }
 header{
-    background-color: aqua;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -30,8 +30,9 @@ header{
 
 }
 .menu ul{
-    background-color: lightgray;
+    
     display: flex;
+    gap: 32px ;
     
 }
 main{
